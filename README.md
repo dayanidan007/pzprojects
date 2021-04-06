@@ -2,13 +2,16 @@ HomeWork for P.z Projects
 
 This is a project for a job interview in P.Z Projects company
 
-*The mission*
+The mission is Develop with react and NodeJS according to the following:
 
-Develop with react and NodeJS according to the following:
 1.	The App will open a form with the fields:
+
 a.	Creator Name – Single line input 
+
 b.	Date -  read only/by default will view today’s date
+
 c.	Comments – rich text 
+
 d.	Repeating Table with the following fields:
        i.      Number – read only/auto numbering
       ii.      Price – number

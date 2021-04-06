@@ -6,19 +6,29 @@ The mission is Develop with react and NodeJS according to the following:
 
 1.	The App will open a form with the fields:
 
+
 a.	Creator Name – Single line input 
+
 
 b.	Date -  read only/by default will view today’s date
 
+
 c.	Comments – rich text 
 
+
 d.	Repeating Table with the following fields:
-       i.      Number – read only/auto numbering
-      ii.      Price – number
-     iii.      Quantity – number
-      iv.      Sum – calculated field/ quantity*price
-      
+
+i.      Number – read only/auto numbering
+
+ii.      Price – number
+
+iii.      Quantity – number
+
+iv.      Sum – calculated field/ quantity*price
+
+
 e.	Save button will save the data to any database that you choose via simple API call.
+
 
 2.	Click on add a new line will add new line to the table.
 

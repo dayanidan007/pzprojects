@@ -34,7 +34,7 @@ illustration:
                                      Add a new row to the table
 ![image](https://user-images.githubusercontent.com/42724186/113692217-fce50500-96d5-11eb-8207-785a5a70db79.png)
 
-                                     The form is in the database
+                                     After you save the form is in the database
 ![image](https://user-images.githubusercontent.com/42724186/113692285-0ff7d500-96d6-11eb-9ecb-f471488619d9.png)
 
 

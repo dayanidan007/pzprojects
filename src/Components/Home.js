@@ -54,16 +54,16 @@ export default function Home() {
     const [open, setOpen] = React.useState(false);
     const [num, setNum] = useState(1)
 
-    const addNewLine = () => {
+    const addNewRow = () => {
         let sum = price * quantity
-        const newLine = {
+        const newRow = {
             num: num,
             price: price,
             quantity: quantity,
             sum: sum
         }
         setNum(num + 1)
-        setTable(tmptable => [...tmptable, newLine])
+        setTable(tmptable => [...tmptable, newRow])
         setOpen(false);
     }
 
@@ -101,7 +101,7 @@ export default function Home() {
 
     return (
         <div>
-            <h1>My React mini project For P.Z Projects</h1>
+            <h1>HomeWork Project</h1>
             <div className={classes.nameAndDate}>
                 <TextField id="creator-name" label="Creator Name" type="string" onChange={handleChanges} />
                 <TextField
@@ -155,10 +155,10 @@ export default function Home() {
                 </TableContainer>
                 <Button variant="outlined" color="primary" onClick={handleClickOpen}
                     style={{ marginLeft: '25%' }}>
-                    + Add new line
+                    + Add new Row
       </Button>
                 <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-                    <DialogTitle id="form-dialog-title">New Line</DialogTitle>
+                    <DialogTitle id="form-dialog-title">New Row</DialogTitle>
                     <DialogContent>
                         <TextField
                             onChange={handleChanges}
@@ -183,7 +183,7 @@ export default function Home() {
                         <Button onClick={handleClose} color="primary">
                             Cancel
           </Button>
-                        <Button onClick={addNewLine} color="primary">
+                        <Button onClick={addNewRow} color="primary">
                             Add
           </Button>
                     </DialogActions>
